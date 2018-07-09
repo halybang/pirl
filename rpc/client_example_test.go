@@ -1,11 +1,11 @@
-package main 
+package rpc_test 
 
 import (
 	"context"
 	"fmt"
 	"time"
 
-	"github.com/pirl/pirl/rpc"
+	"github.com/ethereum/go-ethereum/rpc"
 )
 
 type Block struct {

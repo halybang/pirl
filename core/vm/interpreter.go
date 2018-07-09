@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/pirl/pirl/common/math"
-	"github.com/pirl/pirl/params"
+	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 // Config are the configuration options for the Interpreter

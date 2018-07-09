@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/pirl/pirl/common"
+	"github.com/ethereum/go-ethereum/common"
 )
 
 func (Address) Generate(rand *rand.Rand, size int) reflect.Value {

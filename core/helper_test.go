@@ -20,9 +20,9 @@ import (
 	"container/list"
 	"fmt"
 
-	"github.com/pirl/pirl/core/types"
-	"github.com/pirl/pirl/ethdb"
-	"github.com/pirl/pirl/event"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/ethereum/go-ethereum/event"
 )
 
 // Implement our EthTest Manager

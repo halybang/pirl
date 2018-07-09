@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/pirl/pirl/common"
+	"github.com/ethereum/go-ethereum/common"
 )
 
 var (

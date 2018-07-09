@@ -21,7 +21,7 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/pirl/pirl/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 const (

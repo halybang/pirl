@@ -33,7 +33,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/pirl/pirl/swarm/api"
+	"github.com/ethereum/go-ethereum/swarm/api"
 )
 
 var (

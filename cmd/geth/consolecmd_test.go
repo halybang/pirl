@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pirl/pirl/params"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 const (

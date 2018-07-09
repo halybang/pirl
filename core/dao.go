@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/pirl/pirl/core/state"
-	"github.com/pirl/pirl/core/types"
-	"github.com/pirl/pirl/params"
+	"github.com/ethereum/go-ethereum/core/state"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 // ValidateDAOHeaderExtraData validates the extra-data field of a block header to

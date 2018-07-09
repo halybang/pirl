@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pirl/pirl/log"
+	"github.com/ethereum/go-ethereum/log"
 	"github.com/jackpal/go-nat-pmp"
 )
 

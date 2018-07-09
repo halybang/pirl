@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pirl/pirl/common"
+	"github.com/ethereum/go-ethereum/common"
 )
 
 type testInPayment struct {

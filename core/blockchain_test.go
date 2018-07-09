@@ -24,14 +24,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pirl/pirl/common"
-	"github.com/pirl/pirl/consensus/ethash"
-	"github.com/pirl/pirl/core/state"
-	"github.com/pirl/pirl/core/types"
-	"github.com/pirl/pirl/core/vm"
-	"github.com/pirl/pirl/crypto"
-	"github.com/pirl/pirl/ethdb"
-	"github.com/pirl/pirl/params"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/consensus/ethash"
+	"github.com/ethereum/go-ethereum/core/state"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 // newTestBlockChain creates a blockchain without validation.
@@ -1202,7 +1202,7 @@ func TestEIP161AccountRemoval(t *testing.T) {
 // tests that under weird reorg conditions the blockchain and its internal header-
 // chain return the same latest block/header.
 //
-// https://github.com/pirl/pirl/pull/15941
+// https://github.com/ethereum/go-ethereum/pull/15941
 func TestBlockchainHeaderchainReorgConsistency(t *testing.T) {
 	// Generate a canonical chain to act as the main dataset
 	engine := ethash.NewFaker()

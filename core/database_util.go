@@ -24,13 +24,13 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/pirl/pirl/common"
-	"github.com/pirl/pirl/core/types"
-	"github.com/pirl/pirl/ethdb"
-	"github.com/pirl/pirl/log"
-	"github.com/pirl/pirl/metrics"
-	"github.com/pirl/pirl/params"
-	"github.com/pirl/pirl/rlp"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/ethereum/go-ethereum/params"
+	"github.com/ethereum/go-ethereum/rlp"
 )
 
 // DatabaseReader wraps the Get method of a backing data store.
@@ -70,8 +70,8 @@ var (
 
 	ErrChainConfigNotFound = errors.New("ChainConfig not found") // general config not found error
 
-	preimageCounter    = metrics.NewCounter("db/preimage/total")
-	preimageHitCounter = metrics.NewCounter("db/preimage/hits")
+	preimageCounter    = metrics.NewRegisteredCounter("db/preimage/total", nil)
+	preimageHitCounter = metrics.NewRegisteredCounter("db/preimage/hits", nil)
 )
 
 // TxLookupEntry is a positional metadata to help looking up the data content of

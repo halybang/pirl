@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/pirl/pirl/cmd/utils"
-	"github.com/pirl/pirl/swarm/storage"
+	"github.com/ethereum/go-ethereum/cmd/utils"
+	"github.com/ethereum/go-ethereum/swarm/storage"
 	"gopkg.in/urfave/cli.v1"
 )
 

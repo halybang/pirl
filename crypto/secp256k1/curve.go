@@ -36,7 +36,7 @@ import (
 	"math/big"
 	"unsafe"
 
-	"github.com/pirl/pirl/common/math"
+	"github.com/ethereum/go-ethereum/common/math"
 )
 
 /*

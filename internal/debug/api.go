@@ -33,7 +33,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pirl/pirl/log"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 // Handler is the global debugging handler.

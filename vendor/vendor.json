@@ -311,13 +311,13 @@
 		},
 		{
 			"checksumSHA1": "KAzbLjI9MzW2tjfcAsK75lVRp6I=",
-			"path": "github.com/rcrowley/go-metrics",
+			"path": "github.com/ethereum/go-ethereum/metrics",
 			"revision": "1f30fe9094a513ce4c700b9a54458bbb0c96996c",
 			"revisionTime": "2016-11-28T21:05:44Z"
 		},
 		{
 			"checksumSHA1": "q/d9nXRQYKEJ/EWn+5y6jL8rPGs=",
-			"path": "github.com/rcrowley/go-metrics/exp",
+			"path": "github.com/ethereum/go-ethereum/metrics/exp",
 			"revision": "1f30fe9094a513ce4c700b9a54458bbb0c96996c",
 			"revisionTime": "2016-11-28T21:05:44Z"
 		},
@@ -754,5 +754,5 @@
 			"revisionTime": "2017-08-11T01:42:03Z"
 		}
 	],
-	"rootPath": "github.com/pirl/pirl"
+	"rootPath": "github.com/ethereum/go-ethereum"
 }
